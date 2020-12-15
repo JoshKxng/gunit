@@ -45,18 +45,21 @@ border-radius: 2rem;
     background-image: url(../imagenes/BANNER-JOSH2.jpg);
     background-size: cover;
     background-position: center center;
+    margin-top: 120px;
 }
 
 .slide2{
     background-image: url(../imagenes/slideB.jpg);
     background-size: cover;
     background-position: center center;
+    margin-top: 120px;
 }
 
 .slide3{
     background-image: url(../imagenes/slideC.jpg);
     background-size: cover;
     background-position: center center;
+    margin-top: 120px;
 }
 
 .about-container {
@@ -101,22 +104,7 @@ border-radius: 2rem;
     background: linear-gradient(274deg, rgba(223,217,217,1) 4%, rgba(185,89,107,1) 41%, rgba(194,198,201,1) 87%, rgba(187,190,191,1) 100%);
 }
 
-
-
-/*-------------------------------------------------------------- C O N T A C T O -------------------------------------------*/
-
-img {
-    margin: auto;
-    display: block;
-}
-
-.viaja {
-    border-radius: 20px
-}
-
-
-
-/*---------------------------------- D I S C O G R A F I A*/
+/*---------------------------------- D I S C O G R A F I A--------------------------------------------------------------------*/
 
 .nombresAlbums {
     font-family: 'Bebas Neue', cursive;
@@ -146,6 +134,36 @@ img {
 .ventas {
     font-family: 'Bebas Neue', cursive;
     font-size: 20px;
+}
+
+/*--------------------------------------------------------- HISTORIA --------------------------------*/
+
+.carrera {
+    font-family: 'Staatliches', cursive;
+    color: rgb(199, 69, 69);
+    text-align: center;
+}
+.gira {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.5rem;
+}
+
+#id {
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.historia2 {
+    width: 100%;
+    height: auto;
+    padding-top: 120px;
+}
+
+
+.parrafo1{
+    text-align: center;
 }
 
 /*-----------------------------------------I N T E G R A N T E S------------------------------------------------------------*/ 
@@ -191,35 +209,29 @@ img {
   }
 }
 
-/*--------------------------------------------------------- C A R R E R A --------------------------------*/
 
-.carrera {
-    font-family: 'Staatliches', cursive;
-    color: rgb(199, 69, 69);
-    text-align: center;
-}
-.gira {
-    font-family: 'Bebas Neue', cursive;
-    font-size: 1.5rem;
+/*-------------------------------------------------------------- C O N T A C T O -------------------------------------------*/
+
+img {
+    margin: auto;
+    display: block;
 }
 
-#id {
-    height: 60vh;
-    display: flex;
-    flex-direction: row;
-
+.viaja {
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
 
 
-.historia2 {
-    width: 100%;
-    height: auto;
-}
 
 
-.parrafo1{
-    text-align: center;
-}
+
+
+
+
 
 /*-----------------------------------------------------------F O N D O ---------------------------------------------------------*/
 
@@ -242,4 +254,8 @@ footer {
 }
 .icon {
     width: 100px;
+}
+.form-group{
+    padding-left: 15px;
+    padding-right: 15px;
 }
