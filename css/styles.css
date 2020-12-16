@@ -42,21 +42,24 @@ border-radius: 2rem;
 }
 
 .slide1{
-    background-image: url(../imagenes/BANNER-JOSH2.jpg);
+   background-image: url(../imagenes/BANNER-JOSH2.jpg);
     background-size: cover;
     background-position: center center;
+    margin-top: 120px;
 }
 
 .slide2{
     background-image: url(../imagenes/slideB.jpg);
     background-size: cover;
     background-position: center center;
+    margin-top: 120px;
 }
 
 .slide3{
     background-image: url(../imagenes/slideC.jpg);
     background-size: cover;
     background-position: center center;
+    margin-top: 120px;
 }
 
 .about-container {
@@ -114,6 +117,10 @@ img {
     border-radius: 20px
 }
 
+.form-group{
+    padding-left: 15px;
+    padding-right: 15px;
+}
 
 
 /*---------------------------------- D I S C O G R A F I A ----------------------------------------------------------------*/
