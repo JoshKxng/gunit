@@ -116,23 +116,8 @@ img {
 
 
 
-/*---------------------------------- D I S C O G R A F I A*/
-table, tr, th, td {
-    border: 5px solid black;
-    border-collapse: collapse;
-    padding: 15px;
-    font-family: 'Trebuchet MS';
-}
-th {
-    background-color: rgba(17, 17, 202, 0.52);
-}
-tr{
-    background-color: white;
-}
-h1 {
-    color: rgba(0, 0, 255, 0.767);
-    font-family: 'Bebas Neue', cursive;
-}
+/*---------------------------------- D I S C O G R A F I A ----------------------------------------------------------------*/
+
 
 .nombresAlbums {
     font-family: 'Bebas Neue', cursive;
@@ -145,6 +130,12 @@ h1 {
     font-size: 30px;
 }
 .beg {
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px grey;
+    flex-direction: column;
+    
+}
+.backcd {
     border-radius: 10px;
     box-shadow: 10px 10px 5px grey;
     flex-direction: column;
