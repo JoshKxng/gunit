@@ -229,6 +229,37 @@ img {
     text-align: center;
 }
 
+/*--------------------------------------------------------- HISTORIA --------------------------------*/
+
+.carrera {
+    font-family: 'Staatliches', cursive;
+    color: rgb(199, 69, 69);
+    text-align: center;
+}
+.gira {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.5rem;
+}
+
+#id {
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.historia2 {
+    width: 100%;
+    height: auto;
+    padding-top: 120px;
+}
+
+
+.parrafo1{
+    text-align: center;
+}
+
+
 /*-----------------------------------------------------------F O N D O ---------------------------------------------------------*/
 
 body {
