@@ -166,6 +166,15 @@ border-radius: 2rem;
     text-align: center;
 }
 
+.historia{
+    font-family: 'Bebas Neue', cursive;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+
 /*-----------------------------------------I N T E G R A N T E S------------------------------------------------------------*/ 
 
 .grupo1 {
@@ -246,4 +255,4 @@ footer {
 }
 .icon {
     width: 100px;
-}
+} 
